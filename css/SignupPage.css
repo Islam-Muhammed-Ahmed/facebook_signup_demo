@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #f0f2f5;
+    overflow: hidden;
+}
+
+form {
+    background-color: #fff;
+    position: absolute;
+    width: 400px;
+    height: 550px;
+    padding: 20px 10px 20px 10px;
+    margin: 70px 550px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 9px -6px;
+    top: -40px;
+    text-align: left;
+}
+
+h2 {
+    color: #1c1e21;
+    font-size: 32px;
+    line-height: 38px;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+p {
+    color: #606770;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.line {
+    border-top: 1px solid #222;
+    opacity: 0.2;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    display: block;
+    background-color: #fff;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    border-radius: 8px;
+    width: 210px;
+    padding: 5px 40px;
+    /* text-align: center; */
+    background-color: #f0f2f5;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+}
+
+input[type="text"] {
+    width: 90px;
+}
+
+.first {
+    position: absolute;
+    left: 10px;
+    top: 110px;
+}
+
+.sur {
+    position: absolute;
+    right: 30px;
+    top: 110px;
+}
+
+input[type="email"] {
+    position: absolute;
+    width: 300px;
+    top: 160px;
+}
+
+input[type="password"] {
+    position: absolute;
+    width: 300px;
+    top: 220px;
+}
+
+.date {
+    position: absolute;
+    top: 260px;
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+}
+
+select {
+    border: 1px solid #ccd0d5;
+    padding: 2px;
+}
+
+.day,
+.month,
+.year {
+    width: 120px;
+    height: 36px;
+    border-radius: 5px;
+    line-height: 24px;
+}
+
+.gender {
+    position: absolute;
+    top: 350px;
+    box-sizing: border-box;
+    color: #1c1e21;
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 36px;
+    padding: 0 28px 0 10px;
+    width: 100%;
+    left: -60px;
+}
+
+.gender span {
+    position: relative;
+    top: -25px;
+    left: 60px;
+    color: #606770;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+
+/* please check this coment code */
+
+
+/*input[type="radio"] {
+display: none;
+}
+
+label {
+position: relative;
+font-family: 'Segoe UI', Arial;
+font-size: normal;
+border: 1px solid #ccd0d5;
+border-radius: 5px;
+padding: 7px 25px;
+display: flex;
+align-items: center;
+height: 100px;
+}
+
+label::before {
+position: absolute;
+content: "";
+height: 15px;
+width: 15px;
+border: 1px solid #ccd0d5;
+border-radius: 50%;
+margin-top: 10px;
+margin-left: 50px;
+}
+
+input[type="radio"]:checked+label {
+background-color: #ccd0d5;
+color: transparent;
+}
+
+input[type="radio"]:checked+label::before {
+height: 10px;
+width: 10px;
+border: 1px solid #ccd0d5;
+background-color: #ccd0d5;
+}
+
+*/
+
+.terms {
+    position: relative;
+    color: #606770;
+    font-size: 12px;
+    line-height: 14px;
+    top: 270px;
+}
+
+.terms a {
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+.terms button {
+    border: none;
+    background-color: #42b72a;
+    color: white;
+    width: 190px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 8px;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3 ease;
+}
+
+.terms button:hover {
+    background-color: rgba(90, 133, 90, 0.514);
+    color: #fff;
+}
+
+.form-foot {
+    margin-top: 290px;
+    margin-bottom: 1px;
+}
+
+.icons {
+    margin-top: -10px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    letter-spacing: 35px;
+}
+
+.icons ion-icons {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+    width: 200px;
+    height: 120px;
+}
+
+.icons a:hover {
+    color: rgb(35, 110, 248);
+}

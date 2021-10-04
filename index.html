@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="icon" href="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512">
+    <link rel="stylesheet" href="css/SignupPage.css">
+</head>
+
+<body>
+
+    <form action="loginpage.html" autocomplete="on" method="GET">
+        <h2>Sign Up</h2>
+        <p>It's quick and easy.</p>
+        <!-- line between input & head -->
+        <div class="line"></div> <br>
+        <!-- container for input & it's type -->
+        <div>
+            <input class="first" type="text" placeholder="First name" required>
+            <input class="sur" type="text" placeholder="Surname" required>
+            <input type="email" placeholder="Mobile number or email address" required>
+            <input type="password" placeholder="New password" required>
+        </div>
+        <!-- container for Date of birth -->
+        <div class="date">
+            <p>Date of birth?</p>
+            <!--select date day , month & year -->
+            <select class="day" title="Day">
+                <option value="0">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30" selected>30</option>
+                <option value="31">31</option>
+            </select>
+            <select class="month" title="Month">
+                <option value="0">Month</option>
+                <option value="1" selected>Jan</option>
+                <option value="2">Feb</option>
+                <option value="3">Mar</option>
+                <option value="4">Apr</option>
+                <option value="5">May</option>
+                <option value="6">Jun</option>
+                <option value="7">July</option>
+                <option value="8">Aug</option>
+                <option value="9">Sep</option>
+                <option value="10">Oct</option>
+                <option value="11">Nov</option>
+                <option value="12">Dec</option>
+            </select>
+            <select class="year" title="Year">
+                <option value="0">Year</option>
+                <option value="1">2021</option>
+                <option value="2">2020</option>
+                <option value="3">2019</option>
+                <option value="4">2018</option>
+                <option value="5">2017</option>
+                <option value="6">2016</option>
+                <option value="7">2015</option>
+                <option value="8">2014</option>
+                <option value="9">2013</option>
+                <option value="10">2012</option>
+                <option value="11">2011</option>
+                <option value="12">2010</option>
+                <option value="13">2009</option>
+                <option value="14">2008</option>
+                <option value="15">2007</option>
+                <option value="16">2006</option>
+                <option value="17">2005</option>
+                <option value="18">2004</option>
+                <option value="19">2003</option>
+                <option value="20">2002</option>
+                <option value="21">2001</option>
+                <option value="22">2000</option>
+                <option value="23">1999</option>
+                <option value="24">1998</option>
+                <option value="25">1997</option>
+                <option value="26">1996</option>
+                <option value="27">1995</option>
+                <option value="28" selected>1994</option>
+            </select>
+        </div>
+        <!-- container for Gender -->
+        <div class="gender">
+            <span>Gender?</span>
+            <input type="radio" id="male" name="gender" value="male" checked required>
+            <label for="male" class="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female" class="female">Female</label>
+            <input type="radio" id="custom" name="gender" value="custom" required>
+            <label for="custom" class="custom">Custom</label>
+
+
+        </div>
+        <!-- form terms before Sign Up -->
+        <div class="terms">
+            <span>By clicking Sign Up, you agree to our
+            <a href="#">Terms</a>,
+            <a href="##">Data Policy</a> and
+            <a href="###">Cookie Policy</a>. You may receive SMS notifications from us and can opt out at any time.
+            </span>
+            <br>
+            <button>Sign Up</button>
+        </div>
+        <p class="form-foot">Or Signup with..</p><br>
+        <!-- container footer for Icons by Js -->
+        <div class="icons">
+            <a href="https://www.google.com/gmail/" target="_blank">
+                <ion-icon name="logo-google"></ion-icon>
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <ion-icon name="logo-twitter" target="_blank"></ion-icon>
+            </a>
+            <a href="https://www.skype.com/en/" target="_blank">
+                <ion-icon name="logo-skype" target="_blank"></ion-icon>
+            </a>
+            <a href="https://mail.yahoo.com/" target="_blank">
+                <ion-icon name="logo-yahoo"></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+        </div>
+    </form>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
+</html>
